@@ -22,16 +22,22 @@ Before you begin, ensure you have the following installed:
 
    Create a `.env` file in the root of the backend project with the following variables:
   
-> DB_USER=your_username
-> DB_PASSWORD=your_password
-> DB_SERVER=sqlserver
-> DB_NAME=your_database
+   > DB_USER=your_username
+
+   > DB_PASSWORD=your_password
+
+   > DB_SERVER=sqlserver
+
+   > DB_NAME=your_database
 
 2. **Build and Run Containers**
+   
 Navigate to the backend project folder:
+
 `cd server`
 
 Then, build and run the containers using Docker Compose:
+
 `docker-compose build`
 
 `docker-compose up`
@@ -42,16 +48,19 @@ This will start the backend application and the SQL Server container.
 1. **Configure Environment Variables**
 Create a .env file in the root of the frontend project with the following variable:
 
-> REACT_APP_API_URL=http://localhost:PORT/api
+   > REACT_APP_API_URL=http://localhost:PORT/api
 
 Ensure the URL matches the backend exposed by Docker.
 
 2. **Build and Run the React Application**
 Navigate to the frontend project folder:
+
 `cd client`
 
 Then, build and run the React application using Docker Compose:
+
 `docker-compose build`
+
 `docker-compose up`
 
 The React application will be available at http://localhost:3000.
