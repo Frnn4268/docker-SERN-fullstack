@@ -32,15 +32,15 @@ Before you begin, ensure you have the following installed:
 
 2. **Build and Run Containers**
    
-Navigate to the backend project folder:
+   Navigate to the backend project folder:
 
-`cd server`
+   `cd server`
 
-Then, build and run the containers using Docker Compose:
+   Then, build and run the containers using Docker Compose:
 
-`docker-compose build`
+   `docker-compose build`
 
-`docker-compose up`
+   `docker-compose up`
 
 This will start the backend application and the SQL Server container.
 
@@ -53,14 +53,15 @@ Create a .env file in the root of the frontend project with the following variab
 Ensure the URL matches the backend exposed by Docker.
 
 2. **Build and Run the React Application**
-Navigate to the frontend project folder:
+   
+   Navigate to the frontend project folder:
 
-`cd client`
+   `cd client`
 
-Then, build and run the React application using Docker Compose:
+   Then, build and run the React application using Docker Compose:
 
-`docker-compose build`
+   `docker-compose build`
 
-`docker-compose up`
+   `docker-compose up`
 
 The React application will be available at http://localhost:3000.
